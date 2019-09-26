@@ -4,10 +4,9 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int x=3;
-	int cond1, cond2;
-	cond1=2 < x && x< 5;
-	cond2= x >1 || x<4 && x>3;
+	int x,y;
+	printf("input two integar\n");
+	scanf("%d %d",&x,&y);
 	
-	printf("cond1=%d , cond2=%d",cond1,cond2);
+	printf("x+y=%d, x-y=%d, x*y=%d, x/y=%d, x%%y=%d",x+y,x-y,x*y,x/y,x%y);
 }
