@@ -5,8 +5,8 @@
 
 int main(int argc, char *argv[]) {
 	int x,y;
-	printf("input two integar\n");
+	printf("input two integar:");
 	scanf("%d %d",&x,&y);
 	
-	printf("x+y=%d, x-y=%d, x*y=%d, x/y=%d, x%%y=%d",x+y,x-y,x*y,x/y,x%y);
+	printf(" + result is %d\n - result if %d\n * result is %d\n / result is %d\n %% result is %d\n",x+y,x-y,x*y,x/y,x%y);
 }
